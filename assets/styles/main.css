@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,500,500i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
 
 body {
-  background-image: url("https://res.cloudinary.com/dyiugkn4y/image/upload/v1572473937/GA:%20Portfolio/background-image.jpg");
+  /* background-image: url("https://res.cloudinary.com/dyiugkn4y/image/upload/v1572473937/GA:%20Portfolio/background-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: white;
+  background-attachment: fixed; */
+  background-color: #fdede4;
+  /* color: black; */
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 .nav-link {
