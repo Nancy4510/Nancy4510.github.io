@@ -1,26 +1,32 @@
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,500,500i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
 
+* {
+  /* background-color: #fdede4;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; */
+}
+
 body {
-  /* background-image: url("https://res.cloudinary.com/dyiugkn4y/image/upload/v1572473937/GA:%20Portfolio/background-image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
-  background-color: #fdede4;
-  /* color: black; */
+  /* background-color: #fdede4;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+} */
+
+
+
+#about-me {
+  border: 1px solid black;
 }
 
-.nav-link {
-  border-bottom: 1px solid white;
-  margin-top: 20px;
+#skills {
+  border: 1px solid black;
 }
 
-.nav-link:hover{
-  color: gray;
+#projects {
+  border: 1px solid black;
 }
 
-h1 {
-
+#contact {
+  border: 1px solid black;
 }
