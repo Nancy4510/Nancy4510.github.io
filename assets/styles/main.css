@@ -7,12 +7,9 @@
   text-align: center;
 }
 
-body {
-  /* background-color: ##b18290; */
-}
-
-.nav-item {
-  margin-right: 50px;
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
 #about-me {
@@ -27,10 +24,26 @@ p {
 
 }
 
+.fa-html5 {
+  color: #e44d26;
+}
+
+.fa-css3-alt {
+  color: #1372b6;
+}
+
+.fa-bootstrap {
+  color: #59407e;
+}
+
 #projects {
 
 }
 
 #contact {
 
+}
+
+.fa-github {
+  color: black;
 }
