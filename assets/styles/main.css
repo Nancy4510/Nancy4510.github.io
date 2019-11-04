@@ -1,15 +1,21 @@
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,500,500i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap');
 
 * {
-  background-color: #b18290; */
-  font-family: 'Roboto', sans-serif;
+  background-color: #b18290;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
+body {
+  /* background-color: #b18290;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; */
+}
+
 .navbar-nav {
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 800px;
 }
 
 #about-me {
@@ -42,6 +48,14 @@ p {
 
 #contact {
 
+}
+
+.contact-div {
+
+}
+
+.fa-linkedin {
+  color: #0277b5;
 }
 
 .fa-github {
