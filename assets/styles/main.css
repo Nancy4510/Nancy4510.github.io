@@ -3,29 +3,36 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap');
 
 * {
-  background-color: #b18290;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
 }
 
-body {
-  /* background-color: #b18290;
-  font-family: 'Roboto', sans-serif;
-  text-align: center; */
+main {
+  background-color: #b18290;
+  text-align: center;
 }
 
 .navbar-nav {
   margin-left: 800px;
 }
 
+.navbar-nav:hover{
+  color: black;
+}
+
+/* ABOUT ME SECTION */
 #about-me {
 
 }
 
-p {
-
+#title {
+  padding-top: 30px;
 }
 
+#about-me-paragraph {
+  margin: 15px;
+}
+
+/* SKILLS SECTION */
 #skills {
 
 }
@@ -42,10 +49,12 @@ p {
   color: #59407e;
 }
 
+/* PROJECTS SECTION */
 #projects {
 
 }
 
+/* CONTACT SECTION */
 #contact {
 
 }
@@ -54,10 +63,18 @@ p {
 
 }
 
+i {
+  margin: 20px;;
+}
+
 .fa-linkedin {
   color: #0277b5;
 }
 
 .fa-github {
   color: black;
+}
+
+footer {
+  text-align: center;
 }
