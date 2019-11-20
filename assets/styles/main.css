@@ -1,8 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,500,500i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,500,500i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap");
 
-* {
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -15,15 +15,15 @@ main {
   margin-left: 800px;
 }
 
-.navbar-nav:hover{
+.navbar-nav:hover {
   color: black;
 }
 
-/* ABOUT ME SECTION */
-#about-me {
-
+header {
+  border: 1px solid red;
 }
 
+/* ABOUT ME SECTION */
 #title {
   padding-top: 30px;
 }
@@ -33,10 +33,6 @@ main {
 }
 
 /* SKILLS SECTION */
-#skills {
-
-}
-
 .fa-html5 {
   color: #e44d26;
 }
@@ -50,21 +46,10 @@ main {
 }
 
 /* PROJECTS SECTION */
-#projects {
-
-}
 
 /* CONTACT SECTION */
-#contact {
-
-}
-
-.contact-div {
-
-}
-
 i {
-  margin: 20px;;
+  margin: 20px;
 }
 
 .fa-linkedin {
@@ -77,4 +62,8 @@ i {
 
 footer {
   text-align: center;
+}
+
+#mike-test {
+  color: red;
 }
