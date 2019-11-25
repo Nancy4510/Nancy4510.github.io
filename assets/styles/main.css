@@ -28,14 +28,17 @@ header {
 }
 
 .h1-div {
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+}
+
+#title {
+  padding-top: 250px;
 }
 
 /* ABOUT ME SECTION */
-#title {
-  padding-top: 30px;
-}
 
 #about-me-paragraph {
   margin: 15px;
