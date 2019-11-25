@@ -15,7 +15,7 @@ body {
 }
 
 main {
-  background-color: #b18290;
+  /* background-color: #b18290; */
   text-align: center;
 }
 
@@ -24,7 +24,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 600px;
+  height: 650px;
 }
 
 .h1-div {
@@ -39,12 +39,26 @@ header {
 }
 
 /* ABOUT ME SECTION */
+#about-me {
+  border: 1px solid red;
+  background-color: rgba(100, 101, 100, 0.37);
+  height: 350px;
+}
 
 #about-me-paragraph {
-  margin: 15px;
+  border: 1px solid red;
+  font-size: 20px;
+  /* margin-left: 300px; */
+  padding: 50px;
+  /* text-align: center; */
+  /* width: 400px; */
 }
 
 /* SKILLS SECTION */
+#skills {
+  border: 1px solid red;
+}
+
 .fa-html5 {
   color: #e44d26;
 }
@@ -58,8 +72,15 @@ header {
 }
 
 /* PROJECTS SECTION */
+#projects {
+  border: 1px solid red;
+}
 
 /* CONTACT SECTION */
+#contact {
+  border: 1px solid red;
+}
+
 i {
   margin: 20px;
 }
@@ -73,6 +94,7 @@ i {
 }
 
 footer {
+  border: 1px solid red;
   text-align: center;
 }
 
