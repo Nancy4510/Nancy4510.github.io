@@ -6,11 +6,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-main {
-  background-color: #b18290;
-  text-align: center;
-}
-
 .navbar-nav {
   margin-left: 800px;
 }
@@ -19,8 +14,22 @@ main {
   color: black;
 }
 
+main {
+  background-color: #b18290;
+  text-align: center;
+}
+
 header {
-  border: 1px solid red;
+  background-image: url("https://res.cloudinary.com/dyiugkn4y/image/upload/v1574692323/GA:%20Portfolio/keyboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.h1-div {
+  display: flex;
+  align-items: center;
 }
 
 /* ABOUT ME SECTION */
