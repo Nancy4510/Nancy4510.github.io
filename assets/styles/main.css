@@ -6,12 +6,9 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-nav {
-  margin-left: 800px;
-}
-
-.navbar-nav:hover {
-  color: black;
+.nav-link {
+  /* margin-left: 90px; */
+  /* padding-left: 100px; */
 }
 
 a {
@@ -53,13 +50,14 @@ header {
   font-size: 60px;
 }
 
-span {
+p {
   font-size: 25px;
+  /* margin-bottom: 100px; */
 }
 
 /* ABOUT ME SECTION */
 #about-me {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 350px;
 }
 
@@ -74,7 +72,7 @@ span {
 
 /* SKILLS SECTION */
 #skills {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .fa-html5 {
@@ -91,12 +89,12 @@ span {
 
 /* PROJECTS SECTION */
 #projects {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* CONTACT SECTION */
 #contact {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 i {
@@ -113,9 +111,19 @@ i {
 
 footer {
   border: 1px solid red;
+  height: 150px;
   text-align: center;
 }
 
-#mike-test {
-  color: red;
+#paragraph-footer {
+  font-size: 15px;
+  margin-top: 120px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width:768px) {
+  h1-div {
+    background-color: red;
+  }
 }

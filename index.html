@@ -15,28 +15,39 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Nancy Cruz</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">About Me</a>
-          <a class="nav-item nav-link" href="#">Skills</a>
-          <a class="nav-item nav-link" href="#">Projects</a>
-          <a class="nav-item nav-link" href="#">Resume</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
-        </div>
-      </div>
-    </nav>
+  <a class="navbar-brand" href="#">Nancy Cruz</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
   <main>
     <header>
     <div class='h1-div'>
-      <h1 id="title">Hello World! I'm Nancy. <br><span>Software Engineer by day, normal average citizen by night</span></h1>
+      <h1 id="title">Hello World! I'm Nancy. <br><p>Software Engineer by day, normal average citizen by night</span></p>
     </div>
     </header>
     <section id="about-me">
-      <h1>About Me</h1>
+      <h1 id= 'about-me-heading'>About Me</h1>
       <p id ="about-me-paragraph">I'm currently a Software Engineer student at General Assembly learning the full gist of front and back-end technologies and becoming a better developer. Born and raised in Brooklyn, during my spare time I continue practicing my coding skills, play Mario Kart 8 or lose time in reading a good mystery book.</p>
     </section>
     <section id="skills">
@@ -59,7 +70,7 @@
     </section>
   </main>
   <footer>
-    &copy; 2019 Created by Nancy Cruz
+    <p id='paragraph-footer'>&copy; 2019 Created by Nancy Cruz</p>
   </footer>
 </body>
 
