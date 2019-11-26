@@ -59,10 +59,16 @@ p {
 #about-me {
   /* border: 1px solid red; */
   height: 350px;
+  margin: auto;
+  width: 75%;
+}
+
+#about-me-heading {
+  margin-top: 50px;
 }
 
 #about-me-paragraph {
-  border: 1px dashed blue;
+  /* border: 1px dashed blue; */
   font-size: 20px;
   /* margin-left: 300px; */
   padding: 50px;
@@ -72,7 +78,14 @@ p {
 
 /* SKILLS SECTION */
 #skills {
-  /* border: 1px solid red; */
+  border: 1px solid red;
+  height: 350px;
+  margin: auto;
+  width: 75%;
+}
+
+#skills-heading {
+  margin-top: 50px;
 }
 
 .fa-html5 {
@@ -89,12 +102,26 @@ p {
 
 /* PROJECTS SECTION */
 #projects {
-  /* border: 1px solid red; */
+  border: 1px solid red;
+  height: 350px;
+  margin: auto;
+  width: 75%;
+}
+
+#projects-heading {
+  margin-top: 50px;
 }
 
 /* CONTACT SECTION */
 #contact {
-  /* border: 1px solid red; */
+  border: 1px solid red;
+  height: 350px;
+  margin: auto;
+  width: 75%;
+}
+
+#contact-heading {
+  margin-top: 50px;
 }
 
 i {
@@ -110,7 +137,7 @@ i {
 }
 
 footer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 150px;
   text-align: center;
 }
