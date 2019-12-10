@@ -141,7 +141,7 @@ p {
 /* PROJECTS SECTION */
 #projects {
   border: 1px solid red;
-  height: 900px;
+  height: 1500px;
   margin: auto;
   width: 75%;
 }
@@ -151,14 +151,14 @@ p {
 }
 
 #top-section-projects {
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .container-1 {
   border: 1px solid blue;
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 600px;
   width: 400px;
 }
 
@@ -166,7 +166,7 @@ p {
   border: 1px solid blue;
   /* display: flex;
   flex-direction: column; */
-  height: 400px;
+  height: 600px;
   width: 400px;
 }
 
@@ -177,7 +177,17 @@ p {
 
 #help-desk-support-img {
   height: 300px;
-  width: 500px;
+  width: 350px;
+}
+
+#tech-blog-img {
+  height: 300px;
+  width: 350px;
+}
+
+#pokemon-img {
+  height: 300px;
+  width: 350px;
 }
 
 /* CONTACT SECTION */
