@@ -78,14 +78,24 @@ p {
 
 /* SKILLS SECTION */
 #skills {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 350px;
   margin: auto;
   width: 75%;
 }
 
 #skills-heading {
-  margin-top: 50px;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+#div1-icons {
+  margin-bottom: 30px;
 }
 
 #html5-icon {
@@ -131,13 +141,43 @@ p {
 /* PROJECTS SECTION */
 #projects {
   border: 1px solid red;
-  height: 350px;
+  height: 900px;
   margin: auto;
   width: 75%;
 }
 
 #projects-heading {
   margin-top: 50px;
+}
+
+#top-section-projects {
+  justify-content: center;
+}
+
+.container-1 {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+}
+
+.container-2 {
+  border: 1px solid blue;
+  /* display: flex;
+  flex-direction: column; */
+  height: 400px;
+  width: 400px;
+}
+
+#tic-tac-toe-img {
+  height: 300px;
+  width: 300px;
+}
+
+#help-desk-support-img {
+  height: 300px;
+  width: 500px;
 }
 
 /* CONTACT SECTION */
