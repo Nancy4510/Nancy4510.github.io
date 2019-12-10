@@ -79,8 +79,10 @@ p {
 /* SKILLS SECTION */
 #skills {
   /* border: 1px solid red; */
+  /* background-color: rgba(64, 126, 122, 0.64); */
   height: 350px;
   margin: auto;
+  margin-top: -80px;
   width: 75%;
 }
 
@@ -140,14 +142,15 @@ p {
 
 /* PROJECTS SECTION */
 #projects {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 1500px;
   margin: auto;
-  width: 75%;
+  width: 85%;
 }
 
 #projects-heading {
   margin-top: 50px;
+  padding-bottom: 40px;
 }
 
 #top-section-projects {
@@ -155,39 +158,75 @@ p {
 }
 
 .container-1 {
-  border: 1px solid blue;
+  background-color: rgba(100, 100, 100, 0.03);
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 10px 5px 10px 5px lightgray;
   display: flex;
   flex-direction: column;
-  height: 600px;
-  width: 400px;
+  height: 550px;
+  margin-bottom: 60px;
+  width: 500px;
 }
 
 .container-2 {
-  border: 1px solid blue;
-  /* display: flex;
-  flex-direction: column; */
-  height: 600px;
-  width: 400px;
+  background-color: rgba(100, 100, 100, 0.03);
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 10px 5px 10px 5px lightgray;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  width: 500px;
+}
+
+/* Name of the projects */
+h3 {
+  padding-top: 20px;
 }
 
 #tic-tac-toe-img {
   height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 300px;
 }
 
 #help-desk-support-img {
   height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 350px;
 }
 
 #tech-blog-img {
   height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 350px;
 }
 
 #pokemon-img {
   height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 350px;
+}
+
+#tic-tac-toe-paragraph {
+  font-size: 17px;
+}
+
+#help-desk-support-paragraph {
+  font-size: 17px;
+}
+
+#tech-blog-paragraph {
+  font-size: 17px;
+}
+
+#pokemon-paragraph {
+  font-size: 17px;
 }
 
 /* CONTACT SECTION */
