@@ -6,13 +6,23 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.nav-link {
-  /* margin-left: 90px; */
-  /* padding-left: 100px; */
+#nav-div {
+  border: 1px solid red;
+  height: 50px;
+  margin-top: 10px
 }
 
-a {
+#name-heading {
+  margin-right: 60px;
+}
+
+#nav {
+  display: flex;
+}
+
+.nav-link {
   color: rgba(64, 126, 122, 0.64);
+  font-size: 20px;
 }
 
 main {
@@ -251,34 +261,53 @@ h3 {
 
 /* CONTACT SECTION */
 #contact {
-  border: 1px solid red;
-  height: 350px;
+  /* border: 1px solid red; */
+  height: 200px;
   margin: auto;
   width: 75%;
 }
 
 #contact-heading {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 i {
   margin: 20px;
+}
+.fa-envelope {
+  color: black;
+}
+
+.fa-envelope:hover
+{
+  opacity: 0.5
 }
 
 .fa-linkedin {
   color: #0277b5;
 }
 
+.fa-linkedin:hover
+{
+  opacity: 0.5
+}
+
 .fa-github {
   color: black;
 }
 
+.fa-github:hover
+{
+  opacity: 0.5
+}
+
 footer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100px;
   text-align: center;
 }
 
 #paragraph-footer {
   font-size: 15px;
+  padding-top: 80px;
 }
