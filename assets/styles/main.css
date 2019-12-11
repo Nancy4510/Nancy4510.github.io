@@ -6,7 +6,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#nav-div {
+/* #nav-div {
   border: 1px solid red;
   height: 50px;
   margin-top: 10px
@@ -14,14 +14,14 @@ body {
 
 #name-heading {
   margin-right: 60px;
-}
+} */
 
-#nav {
-  display: flex;
-}
+/* #nav {
+  color: red;
+} */
 
 .nav-link {
-  color: rgba(64, 126, 122, 0.64);
+  /* color: rgba(64, 126, 122, 0.64); */
   font-size: 20px;
 }
 
