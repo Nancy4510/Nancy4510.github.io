@@ -22,7 +22,7 @@ main {
 }
 
 header {
-  background-image: url("https://res.cloudinary.com/dyiugkn4y/image/upload/v1574692323/GA:%20Portfolio/keyboard.jpg");
+  background-image: url("https://res.cloudinary.com/dyiugkn4y/image/upload/v1576263524/GA:%20Portfolio/NewYork.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -49,6 +49,10 @@ header {
 #title {
   font-family: 'Roboto', sans-serif;
   font-size: 60px;
+}
+
+hr {
+  background-color: white;
 }
 
 #paragraph-title {
@@ -272,10 +276,11 @@ h3 {
 }
 
 i {
+  /* margin: auto; */
   margin: 30px;
 }
 
-.fa-file {
+/* .fa-file {
   color: black;
 }
 
@@ -286,7 +291,7 @@ i {
 .fa-file:hover
 {
   opacity: 0.5
-}
+} */
 
 .fa-linkedin {
   color: #0277b5;
