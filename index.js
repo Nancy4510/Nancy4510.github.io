@@ -10,7 +10,7 @@ $(document).ready(function(){
   })
 })
 
-const resetForm = function () {
-	$('form').trigger('reset');
-}
-resetForm();
+// const resetForm = function () {
+// 	$('form').trigger('reset');
+// }
+// resetForm();
