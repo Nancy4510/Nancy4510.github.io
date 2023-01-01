@@ -13,8 +13,8 @@
     "eslint-plugin-promise": "^3.4.1",
     "eslint-plugin-standard": "^2.0.1",
     "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.0",
-    "webpack": "^4.41.2"
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.75.0"
   },
   "scripts": {
     "sass": "node-sass --watch assets/styles/scss -o assets/styles",
